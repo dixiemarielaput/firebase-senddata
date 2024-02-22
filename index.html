@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Data to Firebase</title>
+</head>
+<body>
+    <section class="container">
+        <form action="" id="sendForm">
+            <div class="alert">Your message is sent</div>
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your Name">
+            </div>
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email">
+            </div>
+            <!----
+            <div class="inputBox">
+                <input type="number" id="phoneNumber" placeholder="Your Phone Number">
+            </div>
+            <div class="inputBox">
+                <input type="text" id="address" placeholder="Your Address">
+            </div>
+            -->
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Your Message"></textarea>
+            </div>
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+
+    <!--IDs to send: Name, Email, Phone Numbers, Address, Message Content, Submit-->
+
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./info.js"></script>
+</body> 
+</html>
